@@ -1,0 +1,79 @@
+{
+    "oneSection": [
+        {
+            "imgSrc": "./asset/Logo 1-14.svg",
+            "p": "Este espacio ha sido creado para crecer como sociedad y para lograrlo, es importante comenzar en las aulas. Por eso, buscamos dar herramientas a docentes y estudiantes que fomenten la sana convivencia escolar.",
+            "button": "Registrate aquí"
+        }
+    ],
+
+
+    "twoSection": [
+        {
+            "p1": "El acoso escolar en Perú sigue presente en las aulas. De enero a mayo 2023 se han reportado 2022 casos en la palataforma del MINEDU (La República, junio 2023)",
+            "imgSrc1": "./asset/imgs/celphone-circle.png",
+            "imgSrc2": "./asset/imgs/desktop-circle.png",
+            "p2": "Las Habilidades socioemocioanles son importantes para gestionar los estados afectivos, establecer vinculos positivos y  desarrollar la capacidad de adaptarse al entorno.(MINEDU 2023)"
+        }
+    ],
+
+    "threeSection": [
+
+        {
+            "h2":"NUESTRAS ÁREAS DE TRABAJO",
+            "itemBox":[
+                {
+                    "n":"1",
+                    "p":"Medición de Convivencia escolar",
+                    "tColor" : "t-yellowKumpai",
+                    "bgColor" : "bg-yellowKumpai"
+                },
+                {
+                    "n":"2",
+                    "p":"Retroalimentaciión y comunicación",
+                    "tColor" : "t-orangeKumpai",
+                    "bgColor" : "bg-orangeKumpai"
+                },
+                {
+                    "n":"3",
+                    "p":"Habilidades socioemocionales",
+                    "tColor" : "t-greenKumpai",
+                    "bgColor" : "bg-greenKumpai"
+                }
+            ],
+            "imgSrc":"./asset/imgs/fotook.png"
+        }
+    ],
+
+    "fourSection":[
+        {
+            "imgSvg"    : "./asset/convivencia.svg",
+            "h2"        : "Convivencia en el aula",
+            "p"         : "Cuestionarios que  ayudan a entender  y medir cómo se sienten los estudiantes en el aula",
+            "imgPhone"  : "./asset/imgs/imgePhone1.png",
+            "bgColor"   : "bg-yellowKumpaiLigth"
+        },
+        {
+            "imgSvg"    : "./asset/retroaliemntacion.svg",
+            "h2"        : "Retroalimentación",
+            "p"         : "Espacio que fomenta la retroalimentación, comunicación asertiva y la redacción",
+            "imgPhone"  : "./asset/imgs/imgePhone2.png",
+            "bgColor"   : "bg-orangeKumpaiLigth"
+        },
+        {
+            "imgSvg"    : "./asset/socioemocional.svg",
+            "h2"        : "Convivencia en el aula",
+            "p"         : "Material pedagógico para fortalecer las habilidades socioemocionales",
+            "imgPhone"  : "./asset/imgs/imgePhone3.png",
+            "bgColor"   : "bg-greenKumpaiLigth"
+        }
+    ],
+
+    "fiveSection":[
+        {
+            "button": "Registrate aquí",
+            "p"     : "Kumpai es una adaptación de la palabra Quechua “amigo”. Buscamos que todas las aulas del Perú, sean espacios amigables y seguros para aprender y crecer.",
+            "imgSrc": "./asset/Logo 3.svg"
+        }
+    ]
+}
