@@ -91,26 +91,37 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 50px;
+    height: 60px;
     background-color: $whiteKumpai;
     padding-left: 5%;
     padding-right: 5%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
 
     ul {
+
         display: flex;
         justify-content: space-between;
         width: 100%;
-        li{
-            font-size: 18px;
-            width: 100%;
+
+
+        .btnInit{
+            width: 50%;
             display: flex;
             align-items: center;
-            
+            justify-content: end;
+            font-weight: bold;
+            color:#00B4C1;
+            font-size: 24px;
         }
         .logo{
             background-image: url("/asset/Logo 2-14.svg");
             background-repeat: no-repeat;
-            background-position: center;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: start;
         }
 
     }
