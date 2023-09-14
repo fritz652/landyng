@@ -28,11 +28,13 @@ $whiteKumpai    : #F9F6F2;
 $yellowKumpai   : #FFD600; 
 $orangeKumpai   : #FF6700; 
 $greenKumpai    :   #45B64A;
+$blueKumpai     : #00B4C1; 
 
 
 $yellowKumpaiLigth   : #FFF0A3; 
 $orangeKumpaiLigth   : #F9AC80; 
 $greenKumpaiLigth    :   #A6D399;
+$blueKumpaiLigth     : #95DCDE; 
 
 
 
@@ -48,6 +50,9 @@ $greenKumpaiLigth    :   #A6D399;
     background-color: $greenKumpai;
 }
 
+.bg-blueKumpai {
+    background-color: $blueKumpai;
+}
 
 .bg-yellowKumpaiLigth{
     background-color:$yellowKumpaiLigth;
@@ -59,6 +64,10 @@ $greenKumpaiLigth    :   #A6D399;
 
 .bg-greenKumpaiLigth{
     background-color:$greenKumpaiLigth;
+}
+
+.bg-blueKumpaiLigth{
+    background-color:$blueKumpaiLigth;
 }
 
 
@@ -129,11 +138,13 @@ nav {
 
 .oneSection{
     background-image: url("/asset/imgs/portada.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-position:center;
     background-size: cover;
-    height: 700px;
-
+    background-attachment: fixed;
+    position: relative;
+    /* min-height:700px; */
+    height:600px;
     .logoSlogan{
         height: 20rem;
         position: relative;
@@ -142,9 +153,14 @@ nav {
     }
     .itemsOne {
         display: flex;
-        margin: 100px;
+        /* margin: 100px; */
+        padding: 100px;
         position: relative;
-        top: 25rem;
+        top: 200px;
+        background: linear-gradient( rgba(255, 254, 254, 0) 20%, rgba(0, 0, 0, 0.353) 35%, rgba(0, 0, 5, 0.5) 50%);
+        width: 100%;
+        height: 50px;
+
         p{
             font-family: DinRoundPro;
             font-size: 20px;
@@ -166,26 +182,79 @@ nav {
 }
 
 .twoSection {
+    margin:150px;
     div{
         display: flex;
         flex-direction:column;
         place-content: center;
+        gap:100px;
         div{
+            width: 110%;
             display: flex;
             flex-direction:row;
-            margin: 80px 100px 25px 100px;
+            gap: 100px;
+            margin: 10px 0 10px 0;//revisar
+            .border-box{
+                border-radius: 20px;
+                min-width: 550px;
+                min-height: 400px;
+                /* z-index: 99; */
+            }
             p{
-                margin: 120px;
                 max-width: 400px;
+                text-align: center;
+                align-items: center;
                 justify-content: center;
+                display: flex;
+                justify-content: center;
+                font-weight: bold;
+            }
+            .phoneCircle{
+                z-index: 99;
+                position: absolute;
+            }
+
+            .desktopCircle{
+                z-index: 99;
+                position: absolute;
+                width: 600px;
+            }
+
+            .blueCircle{
+                background-color: $blueKumpai;
+                position: relative;
+                top: -150px;
+                border-radius: 50%;
+                width: 400px;
+                height: 400px;
+            }
+            .litleCircle{
+                background-image: url("/asset/litleCircles.svg");
+                background-position:center;
+                background-size: cover;
+                width: 150px;
+                height: 150px;
+                position: relative;
+                right: 350px;
+                top: 350px;
+            }
+            .orangeCircle{
+                background-color: $orangeKumpai;
+                position: relative;
+                top: 150px;
+                right: 200px;
+                border-radius: 50%;
+                width: 300px;
+                height: 300px;
             }
         }
     }
     font-size: 24px;
+    
 }
 
 .threeSection{
-    background-color: rgb(186, 250, 181);
+    background-color: $blueKumpaiLigth;
     max-height: 800px;
     h2{
         font-family: FestivoLetters;
@@ -308,7 +377,7 @@ nav {
                 font-weight: bold;
             }
             .logoSlogan{
-                height: 20rem;
+                height: 20rem;  
             }
         }
     }
