@@ -20,13 +20,11 @@ fetch('app.json')
         const div = document.createElement('div');
         div.innerHTML = `
             <div>
-                <div class="bg-blueKumpaiLigth border-box">
-                    <p>${item.p1}
-                        
-                    </p>
+                <div class="bg-blueKumpaiLigth border-box card">
+                    <p>${item.p1}</p>
                 </div>
                 <div>
-                    <img class= "phoneCircle" src="${item.imgSrc1}" alt="">
+                    <img class= "phoneCircle card" src="${item.imgSrc1}" alt="">
                     <div class="blueCircle">
                         <span class="litleCircle"></span>
                     </div>
@@ -99,4 +97,8 @@ fetch('app.json')
             fiveSection.appendChild(div);
         });
 })  
+
+
+
+
 

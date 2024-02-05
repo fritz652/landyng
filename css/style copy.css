@@ -342,23 +342,4 @@ nav ul .logo {
 }
 .fiveSection div .itemsOne .logoSlogan {
   height: 20rem;
-}
-
-@keyframes show {
-  from {
-    opacity: 0;
-    scale: 25%;
-  }
-  to {
-    opacity: 2;
-    scale: 100%;
-  }
-}
-img {
-  view-timeline-name: --image;
-  view-timeline-axis: block;
-  animation-timeline: --image;
-  animation-name: show;
-  animation-range: entry 25% cover 50%;
-  animation-fill-mode: both;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style copy.css.map */

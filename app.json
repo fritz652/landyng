@@ -24,7 +24,7 @@
             "itemBox":[
                 {
                     "n":"1",
-                    "p":"Medición de Convivencia escolar",
+                    "p":"Medición de convivencia escolar",
                     "tColor" : "t-yellowKumpai",
                     "bgColor" : "bg-yellowKumpai"
                 },
@@ -49,21 +49,21 @@
         {
             "imgSvg"    : "./asset/convivencia.svg",
             "h2"        : "Convivencia en el aula",
-            "p"         : "Cuestionarios que  ayudan a entender  y medir cómo se sienten los estudiantes en el aula",
+            "p"         : "Cuestionarios validados que  ayudan a entender  y medir cómo se sienten los estudiantes en el aula",
             "imgPhone"  : "./asset/imgs/imgePhone1.png",
             "bgColor"   : "bg-yellowKumpaiLigth"
         },
         {
             "imgSvg"    : "./asset/retroaliemntacion.svg",
             "h2"        : "Retroalimentación",
-            "p"         : "Espacio que fomenta la retroalimentación, comunicación asertiva y la redacción",
+            "p"         : "Espacio que fomenta la retroalimentación, comunicación asertiva y la redacción entre estudiantes y también  entre estudiantes y tutores",
             "imgPhone"  : "./asset/imgs/imgePhone2.png",
             "bgColor"   : "bg-orangeKumpaiLigth"
         },
         {
             "imgSvg"    : "./asset/socioemocional.svg",
             "h2"        : "Convivencia en el aula",
-            "p"         : "Material pedagógico para fortalecer las habilidades socioemocionales",
+            "p"         : "Material psicopedagógico para fortalecer las habilidades socioemocionales",
             "imgPhone"  : "./asset/imgs/imgePhone3.png",
             "bgColor"   : "bg-greenKumpaiLigth"
         }
